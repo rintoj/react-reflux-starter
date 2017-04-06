@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "pretty": true,
+    "outDir": "./build/",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ]
+  },
+  "filesGlob": [
+    "typings/index.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "types": [
+    "react"
+  ],
+  "exclude": [
+    "build",
+    "config",
+    "dist",
+    "node_modules",
+    "public",
+    "scripts"
+  ],
+  "compileOnSave": false
+}
