@@ -20,7 +20,7 @@
     "name-util": "^1.0.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-reflux": "file:///Users/839655roje/data/projects/react-reflux/react-reflux-0.0.0.tgz",
+    "react-reflux": "^1.0.0",
     "react-router": "^4.0.0"
   },
   "devDependencies": {
